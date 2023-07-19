@@ -1,6 +1,7 @@
 from telebot import TeleBot, types
 import os
 
+#You will find your API Token in Telegram @BotFather
 TOKEN = 'YOUR TELEGRAM BOT TOKEN'
 bot = TeleBot(TOKEN)
 
