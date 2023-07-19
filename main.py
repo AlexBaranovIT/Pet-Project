@@ -11,4 +11,5 @@ def start(message):
     bot.send_message(message.chat.id, welcome_message)
 
 
+#Bot watching updates
 bot.polling(none_stop=True)
