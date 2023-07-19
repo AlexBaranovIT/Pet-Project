@@ -9,6 +9,7 @@ bot = TeleBot(TOKEN)
 @bot.message_handler(commands=['start']):
 def start(message):
     welcome_message = 'Hello, ' + message.from_user.first_name + message.from_user.last_name
+    #Bot send welcome message to user
     bot.send_message(message.chat.id, welcome_message)
 
 
