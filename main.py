@@ -5,6 +5,7 @@ import os
 TOKEN = 'YOUR TELEGRAM BOT TOKEN'
 bot = TeleBot(TOKEN)
 
+
 #Function that reacts on command start
 @bot.message_handler(commands=['start']):
 def start(message):
